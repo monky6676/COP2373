@@ -1,6 +1,6 @@
 def ticket_sales():
     Total_Tickets = 10
-    Total_Sales = 0
+    Total_Ticket_Sales = 0
 
     print("Total Remaining Tickets: (Ticket_Seller)")
     print("Maximum 4 Tickets Per Person.")
@@ -24,14 +24,14 @@ def ticket_sales():
                 continue
 
             Total_Tickets -= Ticket_Seller
-            Total_Sales += 1
+            Total_Ticket_Sales += 1
             print(f"Buying {Ticket_Seller} tickets now")
 
         except ValueError:
             print("Please Enter a valid number")
 
     print("Tickets Sold Out")
-    print(f"Total Buyers: {Total_Sales}")
+    print(f"Total Buyers: {Total_Ticket_Sales}")
 
 if __name__ == "__main__":
     ticket_sales()
