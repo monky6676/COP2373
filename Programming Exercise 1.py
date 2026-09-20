@@ -10,7 +10,7 @@ def ticket_sales():
         print(f"Remaning Buyable Tickets: {Total_Tickets}")
 
         try:
-            Ticket_Seller = int(input("Please state how many tickets you would like to buy 1-4"))
+            Ticket_Seller = int(input("Please input how many tickets you would like to buy between 1-4"))
             if Ticket_Seller <= 0:
                 print("Please Have an input of atleast 1 to proceed")
                 continue
