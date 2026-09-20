@@ -1,5 +1,5 @@
 def ticket_sales():
-    Total_Tickets = 20
+    Total_Tickets = 10
     Total_Sales = 0
 
     print("Total Remaining Tickets: (Ticket_Seller)")
